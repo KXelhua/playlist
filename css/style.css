@@ -1,5 +1,12 @@
+body {
+ background: linear-gradient(to bottom, #ff6699 0%, #ffff66 100%);
+ background-size: cover;
+ font-family: 'Concert One', cursive;
+}
+
 h1 {
     text-align: center;
+    
 }
 
 #cart {
@@ -38,7 +45,7 @@ h1 {
     font-size: 16px;
     height: 100px;
     margin: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 #links a {
@@ -50,7 +57,9 @@ h1 {
 }
 
 #form {
-    width: 75%;
+    display: flex;
+    justify-content:space-around;
+    width: 95%;
     margin: 0 auto 20px auto;
     font-size: 18px;
 }
@@ -58,9 +67,12 @@ h1 {
 input {
     padding: 5px 10px;
     font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 button {
     font-size: 14px;
     padding: 5px 10px;
 }
+
